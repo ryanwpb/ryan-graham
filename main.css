@@ -107,7 +107,6 @@
 footer {
   background: #171C1E;
   height: auto;
-  display: flex;
   padding: 2rem;
 }
 
@@ -115,6 +114,20 @@ footer h2 {
   color: #fff;
   font-family: 'Satisfy', cursive;
   font-size: 30px;
+}
+
+.footer-content {
+  display: flex;
+  max-width: 1400px;
+}
+
+.col {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.col h3 {
+  color: #fff;
 }
 
 /*--Work Section Css--*/
