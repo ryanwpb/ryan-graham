@@ -127,6 +127,10 @@ footer h2 {
   text-align: left;
 }
 
+.col a {
+  display: block;
+}
+
 .col h3 {
   color: #fff;
 }
@@ -199,6 +203,8 @@ section.about {
   padding: 0 0 1rem;
 }
 
+
+
 /*--Media Queries--*/
 @media only screen and (max-width: 1024px) {
   #mobile-nav {
@@ -260,5 +266,13 @@ section.about {
     min-height: 0;
     height: 2px;
     padding: 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .col {
+    text-align: center;
   }
 }
