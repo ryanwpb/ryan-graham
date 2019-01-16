@@ -99,7 +99,6 @@
 
 .inner p, a {
   color: #fff;
-  margin: 0 auto 10px;
   font-size: 18px;
   text-decoration: none;
 }
@@ -111,7 +110,7 @@ footer {
 }
 
 footer h2 {
-  color: #fff;
+  color: #E32346;
   font-family: 'Satisfy', cursive;
   font-size: 30px;
 }
@@ -125,6 +124,7 @@ footer h2 {
 .col {
   margin: 0 auto;
   text-align: left;
+  line-height: 30px;
 }
 
 .col a {
@@ -132,7 +132,16 @@ footer h2 {
 }
 
 .col h3 {
-  color: #fff;
+  color: #E32346;
+}
+
+.row {
+  display: flex;
+}
+
+.row i {
+  color: #E32346;
+  margin-right: 5px;
 }
 
 /*--Work Section Css--*/
@@ -274,5 +283,9 @@ section.about {
 
   .col {
     text-align: center;
+  }
+
+  .row {
+    display: inline-flex;
   }
 }
